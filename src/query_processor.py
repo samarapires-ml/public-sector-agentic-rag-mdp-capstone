@@ -17,26 +17,26 @@
 #
 # --------------------------------------------------
 
-
 # --------------------------------------------------
 # Domain keywords
 # --------------------------------------------------
 
 DOMAIN_KEYWORDS = {
     "vehicle_registration": [
-        "vehicle registration",
-        "register vehicle",
-        "register a vehicle",
-        "registration",
-        "renew registration",
-        "cancel registration",
-        "transfer registration",
-        "vehicle ownership",
-        "licence plate",
-        "license plate",
-        "register my vehicle",
-        "register your vehicle",
-        "registering a vehicle",
+    "vehicle registration",
+    "register vehicle",
+    "register a vehicle",
+    "registration",
+    "renew registration",
+    "cancel registration",
+    "transfer registration",
+    "vehicle ownership",
+    "licence plate",
+    "license plate",
+    "register my vehicle",
+    "register your vehicle",
+    "registering a vehicle",
+    "registry agent",
     ],
 
     "motor_vehicle_information": [
@@ -63,6 +63,7 @@ DOMAIN_KEYWORDS = {
         "title ownership",
         "property ownership",
         "caveat",
+        "transferring land",
     ],
 }
 
@@ -87,6 +88,7 @@ AMBIGUOUS_TERMS = [
     "this",
     "that",
     "something",
+    "one",
 ]
 
 
