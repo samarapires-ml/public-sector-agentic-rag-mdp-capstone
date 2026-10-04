@@ -1,0 +1,31 @@
+test_id,question,category,expected_status
+SUP-01,What do I need to register a vehicle in Alberta?,supported,answered
+SUP-02,How do I cancel my vehicle registration?,supported,answered
+SUP-03,How do I renew my vehicle registration?,supported,answered
+SUP-04,What documents do I need to register a vehicle?,supported,answered
+SUP-05,Can I transfer my vehicle registration?,supported,answered
+SUP-06,How can I get a vehicle information report?,supported,answered
+SUP-07,How do I request protected motor vehicle information?,supported,answered
+SUP-08,What information is included in a vehicle information report?,supported,answered
+SUP-09,What information do I need to transfer land?,supported,answered
+SUP-10,What documents do I need for a caveat?,supported,answered
+SUP-11,How do I change land title ownership?,supported,answered
+SUP-12,What do I need to transfer ownership of land in Alberta?,supported,answered
+SUP-13,What identification do I need to register a vehicle?,supported,answered
+SUP-14,Do I need insurance to register a vehicle in Alberta?,supported,answered
+SUP-15,What is required when transferring land?,supported,answered
+AMB-01,How do I transfer it?,ambiguous,clarify
+AMB-02,How do I renew it?,ambiguous,clarify
+AMB-03,How do I change it?,ambiguous,clarify
+AMB-04,What documents do I need for this?,ambiguous,clarify
+AMB-05,How do I get one?,ambiguous,clarify
+OOS-01,How do I apply for an Alberta health card?,out_of_scope,out_of_scope
+OOS-02,How do I apply for a Canadian passport?,out_of_scope,out_of_scope
+OOS-03,What documents do I need to get married in Alberta?,out_of_scope,out_of_scope
+OOS-04,How do I start a business in Alberta?,out_of_scope,out_of_scope
+OOS-05,How do I apply for student financial aid?,out_of_scope,out_of_scope
+ABS-01,How long does a land title transfer take to process?,insufficient_evidence,abstain
+ABS-02,Can I register my vehicle at 3 AM?,insufficient_evidence,abstain
+ABS-03,What is the penalty for lying on a vehicle registration application?,insufficient_evidence,abstain
+ABS-04,Can I transfer land ownership using cryptocurrency?,insufficient_evidence,abstain
+ABS-05,What happens if a registry agent makes a mistake on my application?,insufficient_evidence,abstain

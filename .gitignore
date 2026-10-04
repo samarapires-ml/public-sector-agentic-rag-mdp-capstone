@@ -1,16 +1,57 @@
-# Raw downloaded source files
-data/raw/
+# --------------------------------------------------
+# Environment variables / secrets
+# --------------------------------------------------
 
-# Local vector database
+.env
+*.env
+src/.env
+
+
+# --------------------------------------------------
+# Python cache / compiled files
+# --------------------------------------------------
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+# --------------------------------------------------
+# Virtual environments
+# --------------------------------------------------
+
+.venv/
+venv/
+env/
+
+
+# --------------------------------------------------
+# IDE / editor files
+# --------------------------------------------------
+
+.vscode/
+.idea/
+
+
+# --------------------------------------------------
+# Operating system files
+# --------------------------------------------------
+
+.DS_Store
+Thumbs.db
+
+
+# --------------------------------------------------
+# Local Chroma vector database
+# Can be rebuilt from the processed corpus
+# --------------------------------------------------
+
 data/vector_store/
 
-# Python cache
-__pycache__/
-*.pyc
 
-# Environment files
-.env
-.env.*
+# --------------------------------------------------
+# Temporary / log files
+# --------------------------------------------------
 
-# Hugging Face / model caches
-.cache/
+*.log
+*.tmp
