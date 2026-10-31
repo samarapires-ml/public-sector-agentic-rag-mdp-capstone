@@ -1,0 +1,41 @@
+test_id,question,category,expected_status,reference_doc_ids
+IND-001,Can someone else register a vehicle on my behalf in Alberta?,supported,answered,VR-02
+IND-002,What is the registration process for a vehicle brought into Alberta from another jurisdiction?,supported,answered,VR-02
+IND-003,How long can I use my existing registration after transferring ownership to another vehicle?,supported,answered,VR-03
+IND-004,What proof of insurance is required to transfer a vehicle registration?,supported,answered,VR-03
+IND-005,What are the available ways to renew an Alberta vehicle registration?,supported,answered,VR-04
+IND-006,Can an Alberta vehicle registration be renewed by mail?,supported,answered,VR-04
+IND-007,How do I cancel an Alberta vehicle registration by mail?,supported,answered,VR-05
+IND-008,Under what conditions might I receive a refund after cancelling vehicle registration?,supported,answered,VR-05
+IND-009,What should I do to update my name on Alberta driving documents?,supported,answered,VR-06
+IND-010,What should I do if an Alberta licence plate is lost or stolen?,supported,answered,VR-07
+IND-011,Does an Alberta vehicle information report include the vehicle owner’s personal information?,supported,answered,MVI-02
+IND-012,What are the limitations of an Alberta vehicle information report?,supported,answered,MVI-02
+IND-013,Who may be eligible to request protected motor vehicle information in Alberta?,supported,answered,MVI-03
+IND-014,What authorization may be needed to obtain protected motor vehicle data?,supported,answered,MVI-03
+IND-015,How can protected motor vehicle information be requested to serve court documents?,supported,answered,MVI-06
+IND-016,How can I add another person to a land title in Alberta?,supported,answered,LT-03
+IND-017,What is the procedure for changing land title ownership after an owner dies?,supported,answered,LT-03
+IND-018,Which documents can be registered with Alberta Land Titles?,supported,answered,LT-04
+IND-019,What information is required when completing an Alberta Transfer of Land form?,supported,answered,LT-05
+IND-020,What is the difference between filing a caveat and lapsing a caveat?,supported,answered,LT-06;LT-07
+IND-021,How many minutes will my land title transfer take if I submit it at 10:00 AM tomorrow?,insufficient_evidence,abstain,LT-01;LT-04
+IND-022,What will the exact registry service fee be for my specific vehicle registration next Tuesday?,insufficient_evidence,abstain,VR-02
+IND-023,Can a registry agent guarantee my vehicle registration will be approved within 20 minutes?,insufficient_evidence,abstain,VR-02
+IND-024,Will my vehicle information report reveal every accident that occurred outside Alberta?,insufficient_evidence,abstain,MVI-02
+IND-025,What is the exact probability that my request for protected motor vehicle data will be approved?,insufficient_evidence,abstain,MVI-03
+IND-026,Will the land titles office approve my particular caveat if I describe my dispute in a phone call?,insufficient_evidence,abstain,LT-06
+IND-027,Can you guarantee that a land title document I submit today will never be rejected?,insufficient_evidence,abstain,LT-04
+IND-028,What will the government change the vehicle-registration renewal rules to in 2030?,insufficient_evidence,abstain,VR-04
+IND-029,How much compensation will I personally receive if a registry agent makes an error?,insufficient_evidence,abstain,VR-01
+IND-030,What is the exact number of protected motor vehicle data requests approved in Alberta yesterday?,insufficient_evidence,abstain,MVI-03
+IND-031,Can I submit that online?,ambiguous,clarify,
+IND-032,How much does it cost to change it?,ambiguous,clarify,
+IND-033,Which form should I use for that?,ambiguous,clarify,
+IND-034,Can I request a copy of it?,ambiguous,clarify,
+IND-035,What happens after I file it?,ambiguous,clarify,
+IND-036,How do I apply for an Alberta birth certificate?,out_of_scope,out_of_scope,
+IND-037,What are the eligibility rules for Alberta income support?,out_of_scope,out_of_scope,
+IND-038,How do I replace my Canadian permanent resident card?,out_of_scope,out_of_scope,
+IND-039,How do I register a trademark in Canada?,out_of_scope,out_of_scope,
+IND-040,How can I apply for an Alberta hunting licence?,out_of_scope,out_of_scope,
